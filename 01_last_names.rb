@@ -32,4 +32,11 @@ people = {
 #   Jenkins
 #   Summers
 
-#
+people.each do |person, trait|
+  puts trait[:last_name]
+end
+
+# hash so put two 
+
+# p person["joe"].[:last_name]
+# p person["sue"].[:last_name]

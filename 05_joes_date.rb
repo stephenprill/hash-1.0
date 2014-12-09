@@ -31,3 +31,7 @@ people = {
 #
 # Expected output is:
 #   11/4/2014
+              #as a key  since it's a hash   this array then hash
+puts people["joe"][:correspondence].first[:date]
+
+# could also do [0] same as .first 

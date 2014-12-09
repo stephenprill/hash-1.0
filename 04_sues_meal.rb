@@ -31,3 +31,6 @@ people = {
 #
 # Expected output is:
 #   fish
+# all inside the sue hash 
+
+puts people["sue"][:preferences][:meal]
